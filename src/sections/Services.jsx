@@ -48,6 +48,7 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <article 
+            data-aos="zoom-in"
               key={index} 
               className={`flex flex-col items-center text-center p-6 rounded-lg transform transition duration-300 ease-in-out group ${
                 darkMode 
