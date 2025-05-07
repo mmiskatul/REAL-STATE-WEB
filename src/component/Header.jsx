@@ -25,12 +25,12 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav data-aos="zoom-in" className="hidden space-x-8 md:flex">
+        <nav  className="hidden space-x-8 md:flex">
           <a href="#hero" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">Home</a>
           <a href="#about" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">About</a>
           <a href="#properties" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">Properties</a>
           <a href="#services" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">Services</a>
-          <a href="#" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">Contact</a>
+          <a href="#contract" className="px-2 py-1 hover:border hover:text-white hover:bg-red-600 hover:rounded-xl">Contact</a>
         </nav>
 
         <div className="flex items-center space-x-4">
@@ -76,7 +76,7 @@ const Header = () => {
           <a href="#about" className="block py-2 hover:text-red-600">About</a>
           <a href="#properties" className="block py-2 hover:text-red-600">Properties</a>
           <a href="#services" className="block py-2 hover:text-red-600">Services</a>
-          <a href="#" className="block py-2 hover:text-red-600">Contact</a>
+          <a href="#contract" className="block py-2 hover:text-red-600">Contact</a>
         </div>
       </div>
     </header>
