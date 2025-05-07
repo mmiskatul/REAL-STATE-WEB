@@ -39,8 +39,8 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id='services' className={`py-16 ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
-      <div className="container px-4 pt-24 pb-16 mx-auto bg-pink-100">
+    <section id='services' className={`py-16  ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
+      <div className="container px-10 pt-24 pb-16 mx-auto bg-pink-100 rounded-xl">
         <h2 className={`text-4xl font-bold text-center mb-15 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
           TOP Real Estate Services
         </h2>
