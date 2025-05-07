@@ -5,7 +5,8 @@
 
 A modern real estate website with dark mode functionality, built with React and Tailwind CSS.
 
-![Website Screenshot](https://via.placeholder.com/800x500?text=Real+Estate+Website+Screenshot)
+![Website Screenshot](![Screenshot 2025-05-07 121941](https://github.com/user-attachments/assets/00e155d6-9598-4712-921f-a47fa43310cd)
+)
 
 ## Features
 
