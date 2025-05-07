@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDarkMode } from '../component/DarkModeContext.jsx';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
+   useEffect(() => {
+      AOS.init({
+        offset: 200,
+        duration: 800,
+        easing: "ease-in-sine",
+        delay: 100,
+      });
+    }, []);
 
   return (
     <header className={`sticky top-0 z-50 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-800'} shadow-md`}>
@@ -12,9 +22,9 @@ const Header = () => {
         </div>
         <nav className="hidden space-x-8 md:flex">
           <a href="#hero" className="hover:text-blue-600">Home</a>
+          <a href="#about" className="hover:text-blue-600">About</a>
           <a href="#properties" className="hover:text-blue-600">Properties</a>
           <a href="#" className="hover:text-blue-600">Services</a>
-          <a href="#about" className="hover:text-blue-600">About</a>
           <a href="#" className="hover:text-blue-600">Contact</a>
         </nav>
         <button 
