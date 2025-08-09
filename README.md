@@ -5,13 +5,13 @@
 
 A modern real estate website with dark mode functionality, built with React and Tailwind CSS.
 
-(![Screenshot 2025-05-07 121724](https://github.com/user-attachments/assets/a20f8d1a-a68f-4749-8176-9568d50f53ba))
-(![Screenshot 2025-05-07 121941](https://github.com/user-attachments/assets/00e155d6-9598-4712-921f-a47fa43310cd)
-)
-(![Screenshot 2025-05-07 121735](https://github.com/user-attachments/assets/97d0f6ca-2e82-48bc-b592-a54a7137a23c)
-)
-(![Screenshot 2025-05-07 121910](https://github.com/user-attachments/assets/3d12b150-eeab-4369-80ea-f3421728b696)
-)
+![Screenshot 2025-05-07 121724](https://github.com/user-attachments/assets/a20f8d1a-a68f-4749-8176-9568d50f53ba)
+![Screenshot 2025-05-07 121941](https://github.com/user-attachments/assets/00e155d6-9598-4712-921f-a47fa43310cd)
+
+![Screenshot 2025-05-07 121735](https://github.com/user-attachments/assets/97d0f6ca-2e82-48bc-b592-a54a7137a23c)
+
+![Screenshot 2025-05-07 121910](https://github.com/user-attachments/assets/3d12b150-eeab-4369-80ea-f3421728b696)
+
 
 
 
